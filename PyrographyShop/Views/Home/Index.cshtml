@@ -1,8 +1,38 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="hero">
+    <div class="hero-text">
+        <h1>Fire Needle Art</h1>
+        <p>Every piece is carefully wood-burned by hand to create meaningful artwork, personalized gifts, and timeless keepsakes that bring warmth and character to any space.</p>
+
+        <a class="btn-main" asp-controller="Products" asp-action="Index">
+            Shop Now
+        </a>
+    </div>
+
+    <div class="hero-image">
+        <img src="" alt="Handmade Fire Needle Art">
+    </div>
+</section>
+
+<section class="featured-section">
+    <div class="featured-card">
+        <img src="" alt="" />
+        <h3>Wall Art</h3>
+        <p>Decorative handmade pieces for cozy home spaces.</p>
+    </div>
+
+    <div class="featured-card">
+        <img src="" alt="" />
+        <h3>Custom Designs</h3>
+        <p>Personalized gifts and keepsakes for your loved ones.</p>
+    </div>
+
+    <div class="featured-card">
+        <img src="" alt="" />
+        <h3>Coasters</h3>
+        <p>Handcrafted wood-burned coasters for your home or office.</p>
+    </div>
+</section>

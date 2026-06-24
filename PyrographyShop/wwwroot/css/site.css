@@ -29,3 +29,72 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 20px;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero-text p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.btn-main {
+    display: inline-block;
+    background-color: #b84a39;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-main:hover{
+    background-color: #94392c;
+    color: white;
+}
+
+.hero-image img{
+    max-width: 450px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.featured-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-grid{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.featured-card{
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff7f3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
